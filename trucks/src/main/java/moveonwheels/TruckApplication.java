@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class TruckApplication {
 
+  @RequestMapping(value = "/")
+  public String trucks() {
+    return "Hello from trucks";
+  }
+  
   @RequestMapping(value = "/available")
   public String available() {
     return "These are the available trucks";
