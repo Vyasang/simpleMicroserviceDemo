@@ -9,8 +9,12 @@
     <packaging>pom</packaging>
 
     <modules>
+      <!-- Infra modules -->
+      <module>configServer</module>
+      <module>service-registry</module>
+      <module>gateway</module>
+      <!-- Functional modules -->
       <module>trips</module>
       <module>trucks</module>
-      <module>gateway</module>
     </modules>
 </project>
